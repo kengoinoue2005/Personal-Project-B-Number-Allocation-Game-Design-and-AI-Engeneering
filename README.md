@@ -1,6 +1,8 @@
 # Personal-Project-B-Number-Allocation-Game-Design-and-AI-Engeneering
-A serverless numerical strategy board game (4x4–8x8) in Pure JS. Place tiles to buff adjacent allies via addition and shrink enemies by division. Includes local 2P mode and an adaptive 2/3-step Minimax AI.　周囲の自陣を加算し敵陣を割り算で削る4×4〜8×8数値戦略ゲーム。Pure JSでブラウザ完結し、盤面に応じ2〜3手先読み＋枝刈り最適化されたAI対戦（先後選択可）と対人戦を搭載。
-# Strategic Number Game AI
+A serverless numerical strategy board game (4x4–8x8) in Pure JS. Place tiles to buff adjacent allies via addition and shrink enemies by division. Includes local 2P mode and an adaptive 2/3-step Minimax AI.　
+周囲の自陣を加算し敵陣を割り算で削る4×4〜8×8数値戦略ゲーム。Pure JSでブラウザ完結し、盤面に応じ2〜3手先読み＋枝刈り最適化されたAI対戦（先後選択可）と対人戦を搭載。
+
+# 【English Version】
 
 A fully client-side, serverless numerical strategy board game and AI engine built with Pure JavaScript, executing natively within standard web browsers in milliseconds to seconds.
 
@@ -29,7 +31,8 @@ Card cost vectors were analyzed through self-play simulations in Google Colab us
 
 ### Geometric Tie-Breaking
 When multiple candidate moves share identical heuristic evaluations, the engine prioritizes coordinates closest to the geometric center of the grid (minimum squared Euclidean distance), encouraging natural spatial dominance.
-# Strategic Number Game AI
+
+# 【日本語版】
 
 外部サーバーに依存せず、Webブラウザのクライアントサイド環境（Pure JavaScript）のみで高速動作する対戦型数値戦略ボードゲームおよび思考エンジンです。
 
